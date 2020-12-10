@@ -1,0 +1,69 @@
+body
+{
+	
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	background-image: url(9.jpg);
+}
+.form-box
+{
+	width :450px;
+	
+	margin :1% auto;
+	
+	color: #ccc;
+	
+}
+
+
+
+
+.bday::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.input-box
+{
+	margin :31px auto;
+	width: 80%;
+	border-bottom :1px solid #ccc;
+	padding-top :10px;
+	padding-bottom: 5px;
+
+}
+.eye
+{
+	position:  absolute;
+
+}
+#hide1
+{
+	display: none;
+	cursor: pointer;
+}
+.login-btn
+{
+	
+	width: 80%;
+	display: block;
+	outline:none;
+	
+	border: 1px solid #ccc;
+	cursor: pointer;
+
+	color: rgba(0,0,0,1);
+	font-size: 16px;
+}
+.input-box input
+{
+	
+	border: none;
+	outline: none;
+	
+	color:  black;
+}
+::placeholder
+{
+	color: rgba(0,0,0,1);
+}
